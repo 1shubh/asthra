@@ -1,0 +1,20 @@
+#container{
+    border: 0px solid white;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar{
+    border: 0px solid white;
+    width: 25%;
+}
+#navbar > img{
+    width: 100%;
+}
+@media (max-width:480px){
+    #navbar{
+        width: 60%;
+    }
+}

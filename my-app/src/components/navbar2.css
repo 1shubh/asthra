@@ -1,0 +1,52 @@
+#navbar2{
+    border: 0px solid yellow;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding: 0;
+    background-color: black;
+    z-index: 1;
+}
+#menu{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 95%;
+    margin: 0 auto 0 auto;
+    border-bottom: 2px solid #313131;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding:0;
+    z-index: 1;
+    overflow-x: auto;
+    -ms-overflow-style:none; /* Hide the scrollbar for MS Edge */
+    scrollbar-width: none;
+    height: fit-content;
+}
+#menu::-webkit-scrollbar{
+    display: none;
+    -webkit-overflow-scrolling:touch
+}
+#menu p{
+    border: 0px solid white;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #a1a1aa;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px;
+}
+#menu p:hover{
+    color: #a3e635;
+}
+@media (max-width:480px){
+    #menu{
+        border:0px solid white;
+        justify-content:start;
+    }
+    #menu p{
+        margin: 10px;
+    }
+}

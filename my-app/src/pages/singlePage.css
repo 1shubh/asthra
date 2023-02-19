@@ -1,0 +1,119 @@
+#resultPage{
+    border: 0px solid white;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: fit-content;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#eventExtraDetails{
+    color: white;
+}
+#dataTitle{
+    color: white;
+    font-size: 40px;
+    border-bottom:1px solid white ;
+    font-weight: bolder;
+}
+#description{
+    color: white;
+}
+#dataImage{
+    border: 0px solid yellow;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#eventDiv{
+    width: 50%;
+    display: grid;
+    gap: 30px;
+}
+#eventDetails{
+    border: 0px solid blue;
+    width: 40%;
+    border-radius: 10px;
+}
+#eventDateAndVenue{
+    background-color: #ccff00;
+    padding: 30px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+#eventDateAndVenue div{
+    border: 0px solid black;
+    margin: 15px;
+}
+#eventDateAndVenue div p{
+    margin:0;
+}
+#lable{
+    font-size: 18px;
+}
+#eventTitle{
+    font-size: 36px;
+    font-weight: bolder;
+}
+#vanue,#evnetDate{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#bookSeat{
+    background-color: #27272a;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#eventPrice{
+    border: 0px solid white;
+    margin: auto;
+    color: white;
+    width: 80%;
+}
+#eventPrice>p{
+    font-size: 35px;
+
+}
+#include{
+    width: 80%;
+    margin: auto;
+    border: 0px solid white;
+    color: #81abd6;
+    font-size: 16px;
+}
+#eventSingleImage{
+    border: 0px solid white;
+    width: 70%;
+}
+#eventSingleImage img{
+    width: 100%;
+}
+#description{
+    font-size: 20px;
+}
+@media (max-width:480px){
+    #dataTitle{
+        font-size: 30px;
+    }
+    #dataImage{
+        display: grid;
+        gap: 30px;
+    }
+    #eventDiv{
+        width: 100%;
+    }
+    #eventDetails{
+        width: 100%;
+    }
+    #eventSingleImage{
+        border: 0px solid white;
+        width: 100%;
+    }
+    #eventTitle{
+        font-size: 30px;
+    }
+    #eventPrice p{
+        font-size: 25px;
+    }
+}
